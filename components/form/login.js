@@ -64,6 +64,7 @@ const LoginForm = () => {
         <div>
           <p className="text-center">Password</p>
           <input
+            type={"password"}
             {...register("password", { required: true })}
             className="shadow-md rounded-md py-1 focus:outline-none focus:ring-1 focus:ring-blue-500 px-2"
           />
