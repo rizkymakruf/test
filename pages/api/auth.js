@@ -13,8 +13,6 @@ const query = async (field) => {
   return query;
 };
 
-const route = useRouter();
-
 export default withIronSessionApiRoute(authRoute, sessionOptions);
 
 async function authRoute(req, res) {
