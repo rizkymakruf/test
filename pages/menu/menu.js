@@ -104,7 +104,7 @@ const Menu = () => {
                   typesetting industry.
                 </p>
               </div>
-              <div className="w-1/6">50.000</div>
+              <div className="w-1/6">80.000</div>
             </div>
             <div className="w-full flex items-center gap-3">
               <div className="">
@@ -117,7 +117,7 @@ const Menu = () => {
                   typesetting industry.
                 </p>
               </div>
-              <div className="w-1/6">50.000</div>
+              <div className="w-1/6">80.000</div>
             </div>
             <div className="w-full flex items-center gap-3">
               <div className="">
@@ -130,7 +130,7 @@ const Menu = () => {
                   typesetting industry.
                 </p>
               </div>
-              <div className="w-1/6">50.000</div>
+              <div className="w-1/6">80.000</div>
             </div>
           </div>
         ) : (
@@ -149,7 +149,7 @@ const Menu = () => {
                   typesetting industry.
                 </p>
               </div>
-              <div className="w-1/6">50.000</div>
+              <div className="w-1/6">30.000</div>
             </div>
             <div className="w-full flex items-center gap-3">
               <div className="">
@@ -164,7 +164,7 @@ const Menu = () => {
                   typesetting industry.
                 </p>
               </div>
-              <div className="w-1/6">50.000</div>
+              <div className="w-1/6">30.000</div>
             </div>
             <div className="w-full flex items-center gap-3">
               <div className="">
@@ -179,7 +179,7 @@ const Menu = () => {
                   typesetting industry.
                 </p>
               </div>
-              <div className="w-1/6">50.000</div>
+              <div className="w-1/6">30.000</div>
             </div>
           </div>
         )}
