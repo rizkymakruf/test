@@ -98,9 +98,7 @@ const Menu = () => {
                 <div className="w-20 h-20 bg-red-300 rounded-lg"></div>
               </div>
               <div className="w-3/6 flex flex-col">
-                <p className="text-sm font-semibold text-black">
-                  Raisin Delisght Frappee
-                </p>
+                <p className="text-sm font-semibold text-black">Best Coffee</p>
                 <p className="text-gray-400 text-xs">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
@@ -113,9 +111,7 @@ const Menu = () => {
                 <div className="w-20 h-20 bg-red-300 rounded-lg"></div>
               </div>
               <div className="w-3/6 flex flex-col">
-                <p className="text-sm font-semibold text-black">
-                  Raisin Delisght Frappee
-                </p>
+                <p className="text-sm font-semibold text-black">Best Coffee</p>
                 <p className="text-gray-400 text-xs">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
@@ -128,9 +124,7 @@ const Menu = () => {
                 <div className="w-20 h-20 bg-red-300 rounded-lg"></div>
               </div>
               <div className="w-3/6 flex flex-col">
-                <p className="text-sm font-semibold text-black">
-                  Raisin Delisght Frappee
-                </p>
+                <p className="text-sm font-semibold text-black">Best Coffee</p>
                 <p className="text-gray-400 text-xs">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
