@@ -19,20 +19,24 @@ const Menu = () => {
           <button
             onClick={onClick("seasional")}
             className={`${
-              list === "seasional" ? "text-black" : "text-gray-400"
+              list === "seasional" ? "text-black underline" : "text-gray-400"
             }`}
           >
             Seasonal Product
           </button>
           <button
             onClick={onClick("best")}
-            className={`${list === "best" ? "text-black" : "text-gray-400"}`}
+            className={`${
+              list === "best" ? "text-black underline" : "text-gray-400"
+            }`}
           >
             Best Seller
           </button>
           <button
             onClick={onClick("coffee")}
-            className={`${list === "coffee" ? "text-black" : "text-gray-400"}`}
+            className={`${
+              list === "coffee" ? "text-black underline" : "text-gray-400"
+            }`}
           >
             Coffee
           </button>
@@ -144,7 +148,7 @@ const Menu = () => {
               </div>
               <div className="w-3/6 flex flex-col">
                 <p className="text-sm font-semibold text-black">
-                  Raisin Delisght Frappee
+                  Coffee robusta
                 </p>
                 <p className="text-gray-400 text-xs">
                   Lorem Ipsum is simply dummy text of the printing and
@@ -159,7 +163,7 @@ const Menu = () => {
               </div>
               <div className="w-3/6 flex flex-col">
                 <p className="text-sm font-semibold text-black">
-                  Raisin Delisght Frappee
+                  Coffee robusta
                 </p>
                 <p className="text-gray-400 text-xs">
                   Lorem Ipsum is simply dummy text of the printing and
@@ -174,7 +178,7 @@ const Menu = () => {
               </div>
               <div className="w-3/6 flex flex-col">
                 <p className="text-sm font-semibold text-black">
-                  Raisin Delisght Frappee
+                  Coffee robusta
                 </p>
                 <p className="text-gray-400 text-xs">
                   Lorem Ipsum is simply dummy text of the printing and
