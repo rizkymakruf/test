@@ -37,23 +37,154 @@ const Menu = () => {
             Coffee
           </button>
         </div>
-        <div className="w-full my-2 mx-2">
-          <div className="w-full flex items-center gap-3">
-            <div className="">
-              <div className="w-20 h-20 bg-gray-400 rounded-lg"></div>
+        {list == "seasional" ? (
+          <div className="w-full flex flex-col space-y-2 my-2 bg-white p-2">
+            <p>Seasonal Products</p>
+            <div className="w-full flex items-center gap-3">
+              <div className="">
+                <div className="w-20 h-20 bg-gray-400 rounded-lg"></div>
+              </div>
+              <div className="w-3/6 flex flex-col">
+                <p className="text-sm font-semibold text-black">
+                  Raisin Delisght Frappee
+                </p>
+                <p className="text-gray-400 text-xs">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div className="w-1/6">50.000</div>
             </div>
-            <div className="w-3/6 flex flex-col">
-              <p className="text-sm font-semibold text-black">
-                Raisin Delisght Frappee
-              </p>
-              <p className="text-gray-400 text-xs">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
+            <div className="w-full flex items-center gap-3">
+              <div className="">
+                <div className="w-20 h-20 bg-gray-400 rounded-lg"></div>
+              </div>
+              <div className="w-3/6 flex flex-col">
+                <p className="text-sm font-semibold text-black">
+                  Raisin Delisght Frappee
+                </p>
+                <p className="text-gray-400 text-xs">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div className="w-1/6">50.000</div>
             </div>
-            <div className="w-1/6">50.000</div>
+            <div className="w-full flex items-center gap-3">
+              <div className="">
+                <div className="w-20 h-20 bg-gray-400 rounded-lg"></div>
+              </div>
+              <div className="w-3/6 flex flex-col">
+                <p className="text-sm font-semibold text-black">
+                  Raisin Delisght Frappee
+                </p>
+                <p className="text-gray-400 text-xs">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div className="w-1/6">50.000</div>
+            </div>
           </div>
-        </div>
+        ) : list === "best" ? (
+          <div className="w-full flex flex-col space-y-2 my-2 bg-white p-2">
+            <p>Best Products</p>
+            <div className="w-full flex items-center gap-3">
+              <div className="">
+                <div className="w-20 h-20 bg-red-300 rounded-lg"></div>
+              </div>
+              <div className="w-3/6 flex flex-col">
+                <p className="text-sm font-semibold text-black">
+                  Raisin Delisght Frappee
+                </p>
+                <p className="text-gray-400 text-xs">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div className="w-1/6">50.000</div>
+            </div>
+            <div className="w-full flex items-center gap-3">
+              <div className="">
+                <div className="w-20 h-20 bg-red-300 rounded-lg"></div>
+              </div>
+              <div className="w-3/6 flex flex-col">
+                <p className="text-sm font-semibold text-black">
+                  Raisin Delisght Frappee
+                </p>
+                <p className="text-gray-400 text-xs">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div className="w-1/6">50.000</div>
+            </div>
+            <div className="w-full flex items-center gap-3">
+              <div className="">
+                <div className="w-20 h-20 bg-red-300 rounded-lg"></div>
+              </div>
+              <div className="w-3/6 flex flex-col">
+                <p className="text-sm font-semibold text-black">
+                  Raisin Delisght Frappee
+                </p>
+                <p className="text-gray-400 text-xs">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div className="w-1/6">50.000</div>
+            </div>
+          </div>
+        ) : (
+          <div className="w-full flex flex-col space-y-2 my-2 bg-white p-2">
+            <p>Coffee</p>
+            <div className="w-full flex items-center gap-3">
+              <div className="">
+                <div className="w-20 h-20 bg-orange-900/50 rounded-lg"></div>
+              </div>
+              <div className="w-3/6 flex flex-col">
+                <p className="text-sm font-semibold text-black">
+                  Raisin Delisght Frappee
+                </p>
+                <p className="text-gray-400 text-xs">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div className="w-1/6">50.000</div>
+            </div>
+            <div className="w-full flex items-center gap-3">
+              <div className="">
+                <div className="w-20 h-20 bg-orange-900/50 rounded-lg"></div>
+              </div>
+              <div className="w-3/6 flex flex-col">
+                <p className="text-sm font-semibold text-black">
+                  Raisin Delisght Frappee
+                </p>
+                <p className="text-gray-400 text-xs">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div className="w-1/6">50.000</div>
+            </div>
+            <div className="w-full flex items-center gap-3">
+              <div className="">
+                <div className="w-20 h-20 bg-orange-900/50 rounded-lg"></div>
+              </div>
+              <div className="w-3/6 flex flex-col">
+                <p className="text-sm font-semibold text-black">
+                  Raisin Delisght Frappee
+                </p>
+                <p className="text-gray-400 text-xs">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div className="w-1/6">50.000</div>
+            </div>
+          </div>
+        )}
       </div>
     </>
   );
