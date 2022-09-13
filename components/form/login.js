@@ -2,6 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import Image from "next/image";
 import logo from "../../public/asset/logo.png";
+import { Router, useRouter } from "next/router";
 
 const LoginForm = () => {
   const {
@@ -15,6 +16,8 @@ const LoginForm = () => {
     },
   });
 
+  const route = useRouter();
+
   const [data, setData] = React.useState("");
 
   const onSubmit = async (data) => {
@@ -26,13 +29,19 @@ const LoginForm = () => {
       password: data.password || "",
     };
 
-    await fetch("api/auth", {
+    const ftch = await fetch("api/auth", {
       method: "POST",
       headers: {
         "Content-Type": "application/json; charset=UTF-8",
       },
       body: JSON.stringify(body),
     });
+
+    if (ftch.status === 200) {
+      route.replace("/dashboard");
+    } else {
+      setError("Something went wrong");
+    }
   };
 
   return (
