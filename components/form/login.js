@@ -54,8 +54,10 @@ const LoginForm = () => {
         className="w-full pt-32 flex flex-col justify-center items-center gap-y-4"
       >
         <div>
-          <p className="text-center">Username</p>
+          <p className="text-center">Email</p>
           <input
+            type={"text"}
+            placeholder="Email"
             {...register("username", { required: true })}
             className="shadow-md rounded-md py-1 focus:outline-none focus:ring-1 focus:ring-blue-500 px-2"
           />
@@ -65,6 +67,7 @@ const LoginForm = () => {
           <p className="text-center">Password</p>
           <input
             type={"password"}
+            placeholder={"Password"}
             {...register("password", { required: true })}
             className="shadow-md rounded-md py-1 focus:outline-none focus:ring-1 focus:ring-blue-500 px-2"
           />
