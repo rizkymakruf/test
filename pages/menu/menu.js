@@ -19,9 +19,7 @@ const Menu = () => {
           <button
             onClick={onClick("seasional")}
             className={`${
-              list === "seasional"
-                ? "text-black underline font-bold"
-                : "text-gray-400"
+              list === "seasional" ? "text-black font-bold" : "text-gray-400"
             }`}
           >
             Seasonal Product
@@ -29,9 +27,7 @@ const Menu = () => {
           <button
             onClick={onClick("best")}
             className={`${
-              list === "best"
-                ? "text-black underline font-bold"
-                : "text-gray-400"
+              list === "best" ? "text-black font-bold" : "text-gray-400"
             }`}
           >
             Best Seller
@@ -39,9 +35,7 @@ const Menu = () => {
           <button
             onClick={onClick("coffee")}
             className={`${
-              list === "coffee"
-                ? "text-black underline font-bold"
-                : "text-gray-400"
+              list === "coffee" ? "text-black font-bold" : "text-gray-400"
             }`}
           >
             Coffee
